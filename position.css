@@ -1,0 +1,54 @@
+.main{
+    height: 400px;
+    width: 500px;
+    border: 1px solid red;
+    position: relative;
+}
+.main div{
+    height: 60px;
+    width: 80px;
+    border: 1px solid blue;
+    position: absolute;
+
+}
+.main div span{
+    height: 40px;
+    width: 60px;
+    display: inline-block;
+    border: 1px solid red;
+}
+.main .div1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .div2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.main .div3{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.main .div4{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.main .div5{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.main div span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: inline-block;
+    text-align: center;
+    line-height: 40px  ;
+}

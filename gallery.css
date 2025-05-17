@@ -1,0 +1,16 @@
+body{
+    width: 70%;
+    border: 1px solid blue;
+    margin: auto 0;
+}
+.Gallery{
+    display: grid;
+    grid-template-columns: repeat(auto, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+.Gallery .div{
+    border: 1px solid red;
+}
+.Gallery .div img{
+    width: 100%;
+}

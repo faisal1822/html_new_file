@@ -1,0 +1,68 @@
+body{
+    width: 768px;
+    border: 1px solid blue;
+    margin: 0 auto;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.main div{
+    width: 200px;
+    height: 150px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main div span{
+    width: 100px;
+    background-color: brown;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+}
+.main .div1{
+    background-color: aqua;
+}
+.main .div2{
+    background-color: blue;
+}
+.main .div3{
+    background-color: blueviolet;
+}
+.main2{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.main2 div{
+    width: 200px;
+    height: 150px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main2 div span{
+    width: 100px ;
+    background-color: brown;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+}
+.main2 .div1{
+    background-color: aqua;
+    order: 2;
+}
+.main2 .div2{
+    background-color: blue;
+    order: 3;
+}
+.main2 .div3{
+    background-color: blueviolet;
+}
